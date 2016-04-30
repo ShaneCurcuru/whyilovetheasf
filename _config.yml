@@ -14,8 +14,20 @@ permalink: none
 
 # Layout settings
 header_type: default  # values [ drawer, default ]
-post_type: highlight    # values [ highlight, default ]
+post_type: default    # values [ highlight, default ]
 pagination_type: default  # values [ ops, default ]
+
+# Custom UI settings
+sister_sites:
+  site1:
+    name: Community Over Code
+    link: communityovercode.com
+  site2:
+    name: What Is Hadoop?
+    link: hadoop.biz
+  site3:
+    name: Punderings
+    link: shane.curcuru.name/blog/
 
 more_vert:
   option1:
