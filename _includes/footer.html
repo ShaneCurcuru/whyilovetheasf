@@ -6,7 +6,7 @@
       <h1 class="mdl-mega-footer--heading">Contact</h1>
       <ul class="mdl-mega-footer--link-list">
         <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        <li><a href="{{ "/feed.xml" | prepend: site.baseurl }}">subscribe via RSS</a></li>
+        <li><a href="{{ "/feed.xml" | prepend: site.url }}">subscribe via RSS</a></li>
       </ul>
     </div>
 
@@ -61,7 +61,7 @@
   <div class="mdl-mega-footer--bottom-section">
     <div class="mdl-logo">{{ site.title }}</div>
     <ul class="mdl-mega-footer--link-list">
-      <li><a href="{{ site.baseurl }}/colophon">Help / Legal / Trademarks</a></li>
+      <li><a href="{{ site.url }}/colophon">Help / Legal / Trademarks</a></li>
     </ul>
   </div>
 
