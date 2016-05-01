@@ -12,7 +12,7 @@ This is Shane's website about Why I Love The ASF.  It is an unofficial** resourc
 
     </div>
     <div class="mdl-cell mdl-cell--4-col">
-      <img src="http://127.0.0.1:4000/whyilovetheasf//img/Shane-IheartASF-ApacheCon2009.jpg" style="margin: 20px; max-width: 512px; width: 80%; height: auto;"/>
+      <img src="/img/Shane-IheartASF-ApacheCon2009.jpg" style="margin: 20px; max-width: 512px; width: 80%; height: auto;"/>
       <span class="mdl-typography--caption">
 
 &copy; [Julian Cash](http://jceventphoto.com/)
