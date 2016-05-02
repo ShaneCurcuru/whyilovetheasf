@@ -4,23 +4,29 @@ title: About This Site
 permalink: /about/
 ---
 
+<!-- TODO: use plainer layout so we can setup entire layout area -->
 <main class="mdl-layout__content">
   <div class="mdl-grid">
     <div class="mdl-cell mdl-cell--6-col">
-      <div class="mdl-color--white mdl-shadow--4dp mdl-color-text--grey-800 mdl-card">
-        <h4 class="mdl-card__title-text">About The Author</h4>
-        <p class="mdl-card__supporting-text">This is Shane's website about Why I Love The ASF.  It is an unofficial resource with useful pointers and humorous stories about how Apache really works, and is a companion to my essay-focused
-        <a href="http://communityovercode.com/">Community Over Code</a> blog.
-        </p>
+      <div class="mdl-card mdl-shadow--4dp mdl-color-text--grey-800">
+        <div class="mdl-card__title">
+          <h4 class="mdl-card__title-text">Do you love Apache?</h4>
+        </div>
+        <div class="mdl-card__supporting-text">
+          This is Shane's website about Why I Love The ASF.  It is an unofficial resource with useful pointers and humorous stories about how Apache really works, and is a companion to my essay-focused
+          <a href="http://communityovercode.com/">Community Over Code</a> blog.
+          As well as a variety of other sites.
+        </div>
       </div>
     </div>
+
     <div class="mdl-cell mdl-cell--4-col">
-      <div class="mdl-card mdl-shadow--4dp">
-        <div class="mdl-card__media">
-          <img src="/img/Shane-IheartASF-ApacheCon2009.jpg" style="margin: 20px; max-width: 512px; width: 90%; height: auto;">
+      <div class="mdl-card mdl-shadow--4dp mdl-color-text--grey-600">
+        <div class="mdl-card__media mdl-color--white">
+          <img src="/img/Shane-IheartASF-ApacheCon2009.jpg" style="width:auto; height:auto; max-width:100%; max-height:100%;" alt="Shane heart ASF">
         </div>
         <div class="mdl-typography--text-center mdl-typography--caption">
-          &copy; <a href="http://jceventphoto.com/">Julian Cash</a>
+          <span class="mdl-typography--caption">&copy; <a href="http://jceventphoto.com/" style="text-decoration: none;">Julian Cash</a></span>
         </div>
       </div>
     </div>
