@@ -3,7 +3,7 @@
 
     <div class="mdl-mega-footer--drop-down-section">
       <input class="mdl-mega-footer--heading-checkbox" type="checkbox" checked>
-      <h1 class="mdl-mega-footer--heading">Contact</h1>
+      <h1 class="mdl-mega-footer--heading">CONTACT</h1>
       <ul class="mdl-mega-footer--link-list">
         <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
         <li><a href="{{ "/feed.xml" | prepend: site.url }}">subscribe via RSS</a></li>
@@ -12,7 +12,7 @@
 
     <div class="mdl-mega-footer--drop-down-section">
       <input class="mdl-mega-footer--heading-checkbox" type="checkbox" checked>
-      <h1 class="mdl-mega-footer--heading">More Shane</h1>
+      <h1 class="mdl-mega-footer--heading">MORE TO READ</h1>
       <ul class="mdl-mega-footer--link-list">
         {% if site.github_username %}
         <li>
@@ -49,7 +49,7 @@
 
     <div class="mdl-mega-footer--drop-down-section">
       <input class="mdl-mega-footer--heading-checkbox" type="checkbox" checked>
-      <h1 class="mdl-mega-footer--heading">This Site</h1>
+      <h1 class="mdl-mega-footer--heading">{{ site.desctitle }}</h1>
       <ul class="mdl-mega-footer--link-list">
         <li>{{ site.description }}</li>
       </ul>
@@ -61,7 +61,8 @@
   <div class="mdl-mega-footer--bottom-section">
     <div class="mdl-logo">{{ site.title }}</div>
     <ul class="mdl-mega-footer--link-list">
-      <li><a href="{{ site.url }}/colophon">Help / Legal / Trademarks</a></li>
+      <li><a href="{{ site.url }}/about">About This Site</a></li>
+      <li><a href="{{ site.url }}/colophon">Impress / Legal / Trademarks</a></li>
     </ul>
   </div>
 

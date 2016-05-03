@@ -1,10 +1,13 @@
 # Site settings
 title: Why I Love The ASF
-email: asf@shanecurcuru.org
-description: > # this means to ignore newlines until "baseurl:"
-  Why I Love The ASF: useful information and pointers to community
-  resources about the Apache Software Foundation and the many
-  Apache projects by long-time Member Shane Curcuru.
+email: asfl@shanecurcuru.org
+desctitle: RESPECT APACHE BRANDS
+description: >
+  Apache&reg; and all Apache project names are either registered trademarks
+  or trademarks of the <a href="//www.apache.org/">Apache Software Foundation</a> (ASF) in the
+  United States and/or other countries. The ASF has no affiliation with
+  and does not endorse or review the materials provided at this website,
+  which is managed by Shane Curcuru.
 baseurl: "/" # the subpath of your site, e.g. /blog/
 url: "http://whyilovetheasf.com" # the base hostname & protocol for your site
 twitter_username: shanecurcuru

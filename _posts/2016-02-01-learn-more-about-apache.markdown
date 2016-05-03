@@ -16,59 +16,39 @@ excerpt: A permuted index of topics at Apache
       <article class="post-content">
         <div class="mdl-grid">
 
-<div class="mdl-cell mdl-cell--3-col mdl-card mdl-shadow--4dp mdl-color-text--grey-800">
-  <div class="mdl-card__title mdl-card__title-small"><h4 class="mdl-card__title-text">People</h4></div>
-  <div class="mdl-card__supporting-text"><a href="http://home.apache.org/">Apache committer directory and phonebook.</a></div>
-</div>
-
-{% include card.html title="Welcome" content='<a href="http://community.apache.org/">Apache Community Development</a> is here to welcome and guide you.' %}
+{% include card.html title="Welcome" content='<a href="http://community.apache.org/">Apache Community Development</a> is here to welcome and guide you.' size="mdl-card-small" %}
 
 {% capture getcodecard %}
 All project code at Apache is publicly available and in <a href="http://www.apache.org/dev/#version-control">Subversion or Git repositories</a>.
 {% endcapture %}
 {% include card.html title="Get Code" content=getcodecard size="mdl-card-small"%}
 
-{% include card.html title="Find Technology" content='<a href="https://projects.apache.org/">List all 170+ Apache projects</a> and read the <a href="http://www.apache.org/dev/">developer information portal</a>.' %}
+{% include card.html title="Find Technology" content='<a href="https://projects.apache.org/">List all 170+ Apache projects</a> and read the <a href="http://www.apache.org/dev/">developer information portal</a>.' size="mdl-card-small" %}
 
-### How To Contact Anyone
+{% include card.html title="People" content='<a href="http://home.apache.org/">Apache committer directory and phonebook</a>, <a href="http://planet.apache.org/committers/">Planet Apache blog aggregator</a>.' size="mdl-card-small" %}
 
-Everything at Apache happens on [our many mailing lists](http://www.apache.org/foundation/mailinglists.html).
-Finding the [right list to use](http://www.apache.org/dev/contrib-email-tips.html#rightlist) is important.  In particular, every Apache project has their own dev@/user@
-mailing lists - **all** technical questions should be asked
-on that project's list, not an overall Apache one.  Only for cross-project
-issues should you contact a [top-level Apache address](http://www.apache.org/foundation/contact).
+{% capture contactcard %}
+Everything at Apache happens on <a href="http://www.apache.org/foundation/mailinglists.html">our mailing lists</a>.
+Find the <a href="http://www.apache.org/dev/contrib-email-tips.html#rightlist">right list to use</a>.
+<strong>Technical</strong> questions go to a project's dev@ list. Or, <a href="http://www.apache.org/foundation/contact">ask cross-project questions</a>.
+<a href="http://mail-archives.apache.org/mod_mbox/">Read the public list archives</a>.
+{% endcapture %}
+{% include card.html title="How To Contact Anyone" content=contactcard size="mdl-card-small" %}
 
-Most mailing lists are [publicly archived](http://mail-archives.apache.org/mod_mbox/).
-          </div><!-- first mdl-grid -->
 
-### Legal Issues
+{% include card.html title="Legal Issues" content='The ASF uses the permissive <a href="http://www.apache.org/licenses/">Apache License, version 2.0</a>.  Legal questions go to the <a href="http://www.apache.org/legal/">Legal Affairs Committee</a>.' size="mdl-card-small" %}
 
-  Virtually everything the ASF produces is under the [Apache License, version 2.0](http://www.apache.org/foundation/contact).  Any questions about
-  anything legal related go to the [Legal Affairs Committee](http://www.apache.org/legal/).
+{% include card.html title="Trademarks Are Important" content='The ASF <a href="http://www.apache.org/foundation/marks/">owns all Apache trademarks</a>. <a href="http://www.apache.org/foundation/marks/list/">All Apache project and software product names are trademarks</a>. Read <a href="http://www.apache.org/foundation/marks/resources">useful trademark resources</a>.' size="mdl-card-small" %}
 
-### Trademarks Are Important
+{% include card.html title="Press, Analysts, Journalists" content='Our <a href="http://www.apache.org/press/">Media and Analyst relations team</a> runs <a href="https://twitter.com/TheASF">@TheASF on Twitter</a> and writes an <a href="https://blogs.apache.org/foundation/">official Foundation Blog</a>.' size="mdl-card-small" %}
 
-  The ASF [owns all trademarks on behalf of Apache projects.](http://www.apache.org/foundation/marks/)  The name and
-  logo of [every project and software product](http://www.apache.org/foundation/marks/list/) are trademarks or registered
-  trademarks of the ASF.
+{% include card.html title="Corporate Governance" content='The ASF is a <a href="http://www.apache.org/foundation/records/">501C3 non-profit public charity</a>, that relies on <a href="http://www.apache.org/foundation/contributing">individual donors</a> and <a href="http://www.apache.org/foundation/sponsorship">sponsors</a> for <a href="https://blogs.apache.org/foundation/entry/the_apache_software_foundation_asf">funding and budgets</a>.  Members elect a <a href="http://www.apache.org/foundation/">Board of Directors</a> that appoints Officers. Read our <a href="http://www.apache.org/foundation/governance/">governance overview and org chart</a>.' size="mdl-card-small" %}
 
-### Press, Analysts, Journalists
+{% include card.html title="Infrastructure Team &amp; Tools" content='The crack <a href="http://www.apache.org/dev/#infrastructure">Apache Infrastructure team</a> runs everything, and protects our servers from rogue gnomes.' size="mdl-card-small" %}
 
-  The ASF has an excellent [Media and Analyst relations team](http://www.apache.org/press/) that runs
-  [@TheASF](https://twitter.com/TheASF) and the [official Foundation Blog](https://blogs.apache.org/foundation/).
+{% include card.html title="Your Ideas" content='Have another useful explanation or link? <a href="https://github.com/ShaneCurcuru/whyilovetheasf">PR me on github</a>!' size="mdl-card-small" %}
 
-### Corporate Governance
-
-  The ASF is a [501C3 non-profit](http://www.apache.org/foundation/records/), membership corporation and public charity that relies on
-  [individual donors](http://www.apache.org/foundation/contributing.html) and [sponsors](http://www.apache.org/foundation/sponsorship.html) for [funding and budgets](https://blogs.apache.org/foundation/entry/the_apache_software_foundation_asf).
-  Our Members elect a [Board of Directors](http://www.apache.org/foundation/) that appoints Officers, and a detailed [governance overview and org chart](http://www.apache.org/foundation/governance/) is posted.
-
-### Infrastructure Team &amp; Tools
-
-  The crack [Apache Infrastructure team](http://www.apache.org/dev/#infrastructure) runs all the
-  machines, clouds, and services used by the ASF and Apache projects.  Some projects
-  run non-critical (testing, additional docs, etc.) resources for themselves.
-
+        </div><!-- first mdl-grid -->
       </article>
     </div><!-- post-section -->
   </div><!-- post-container mdl-grid" -->
