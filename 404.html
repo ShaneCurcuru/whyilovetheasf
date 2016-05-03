@@ -5,13 +5,14 @@ layout: default
 
 <div class="page-content">
   <div class="mdl-grid">
-    <div class="mdl-card mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
-      <div class="mdl-card__supporting-text mdl-typography--title-color-contrast">
-        <h4>Ooops! That's a 404!</h4>
-        <span class="mdl-typography--body-2-color-contrast">404 Not Found</span><br/>
 
-        Sorry, the URL you attempted to access wasn't found. Perhaps another page would be good?
-
+    <div class="mdl-cell mdl-cell--10-col mdl-card mdl-shadow--4dp">
+      <div class="mdl-card__title">
+        <h4 class="mdl-card__title-text mdl-typography--title-color-contrast">Ooops! That's a 404!</h4>
+      </div>
+      <div class="mdl-card__supporting-text">
+        <span class="mdl-typography--body-2-color-contrast mdl-color-text--red-900">404 Not Found</span>
+        <span class="mdl-typography--body-2-color-contrast">Sorry, the URL you attempted to access wasn't found. Perhaps searching this site would be good?</span>
       </div>
       <div class="mdl-card__actions">
         <div class="mdl-cell--hide-phone mdl-cell--hide-tablet">
@@ -24,39 +25,47 @@ layout: default
       </div>
     </div>
 
-
-    {% for post in site.posts %}
-
-    <div class="mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-desktop mdl-cell--4-col-tablet  mdl-cell--12-col-phone .mdl-cell--top">
-      <div class="mdl-card__title mdl-card__media" {% if post.image %} style="background: url('{{ post.image }}') center/cover;" {% endif %}>
-        <h2 class="mdl-card__title-text mdl-typography--title-color-contrast">{{ post.title }}</h2>
+    <div class="mdl-cell mdl-cell--10-col mdl-card mdl-shadow--4dp">
+      <div class="mdl-card__title">
+        <h4 class="mdl-card__title-text mdl-typography--title-color-contrast">Search</h4>
       </div>
       <div class="mdl-card__supporting-text">
-        {{ post.excerpt | strip_html }}
+        <form class="devsite-search-form" action="/search" method="GET">
+          <label class="mdl-button mdl-js-button mdl-button--icon" for="search-field">
+            <i class="material-icons">search</i>
+          </label>
+          <div class="mdl-textfield__expandable-holder">
+            <input class="mdl-textfield__input" type="text" name="q" id="search-field" />
+          </div>
+          <script src='//www.google.com/jsapi' type='text/javascript'></script>
+          <script type='text/javascript'>
+          google.load('search', '1', {language: 'en', style: google.loader.themes.SHINY});
+          google.setOnLoadCallback(function() {
+            var customSearchOptions = {};
+            var orderByOptions = {};
+            orderByOptions['keys'] = [{label: 'Relevance', key: ''} , {label: 'Date', key: 'date'}];
+            customSearchOptions['enableOrderBy'] = true;
+            customSearchOptions['orderByOptions'] = orderByOptions;
+            var customSearchControl =   new google.search.CustomSearchControl('008313295041711467873:a4oi2vhmdlo', customSearchOptions);
+            customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
+            var options = new google.search.DrawOptions();
+            options.enableSearchboxOnly('https://whyilovetheasf.com/search.html', 'q');
+            options.setAutoComplete(true);
+            customSearchControl.draw('search-field', options);
+          }, true);
+        </script>
+        </form>
       </div>
-      <button class="post-button mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored" onclick="location.href='{{ post.url | prepend: site.url }}'">
-        <i class="material-icons">keyboard_arrow_right</i>
-      </button>
-      <div class="mdl-card__actions mdl-card--border">
-        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="{{ post.url | prepend: site.url }}">
-          {{ post.categories }}
-        </a>
-      </div>
-      <div class="mdl-card__menu">
-        <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect" id="post-{{ post.id }}">
-          <i class="material-icons">share</i>
-        </button>
-        <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="post-{{ post.id }}">
-          <li><a href="https://twitter.com/share?url={{ post.url | prepend: site.url }}&text={{ post.title }}&via={{ site.twitter_username }}" class="mdl-menu__item">Twitter</a></li>
-          <!-- li><a href="https://www.facebook.com/dialog/share?app_id={app_id}&display=page&href={{ post.url | prepend: site.url }}&redirect_uri={{ site.url }}" class="mdl-menu__item">Facebook</a></li>
-          -->
-          <li><a href="https://plus.google.com/share?url={{ post.url | prepend: site.url }}" class="mdl-menu__item">Google+</a></li>
-          <li><a href="mailto:EmailHere?subject=Great%20post%20from%20Why%20I%20Love%20The%20ASF&body=Read%20this-%20'{{ post.title }}'%0A{{ post.url | prepend: site.url }}" class="mdl-menu__item">Email</a></li>
-        </ul>
+      <div class="mdl-card__actions">
+        <div class="mdl-cell--hide-phone mdl-cell--hide-tablet">
+          <a href="{{ "/" | prepend: site.url }}">
+            <button id="share_btn" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised mdl-button--fab mdl-button--primary">
+              <i class="material-icons">search</i>
+            </button>
+          </a>
+        </div>
       </div>
     </div>
-
-    {% endfor %}
 
   </div>
 </div>
