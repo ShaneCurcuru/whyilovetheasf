@@ -1,24 +1,28 @@
 # Site settings
 title: Why I Love The ASF
-email: asfl@shanecurcuru.org
-desctitle: RESPECT APACHE BRANDS
+baseurl: "/"
+url: "http://whyilovetheasf.com"
 description: >
+ Learn how Apache communities really work with welcoming advice for newcomers
+ from Shane Curcuru, who loves the ASF.
+footertitle: RESPECT APACHE BRANDS
+footerdesc: >
   Apache&reg; and all Apache project names are either registered trademarks
-  or trademarks of the <a href="//www.apache.org/">Apache Software Foundation</a> (ASF) in the
-  United States and/or other countries. The ASF has no affiliation with
-  and does not endorse or review the materials provided at this website,
-  which is managed by Shane Curcuru.
-baseurl: "/" # the subpath of your site, e.g. /blog/
-url: "http://whyilovetheasf.com" # the base hostname & protocol for your site
+  or trademarks of the <a href="//www.apache.org/">Apache Software Foundation</a>
+  (ASF) in the United States and/or other countries. The ASF has does not
+  endorse or review the materials provided at this website,
+  which is managed by <a href="communityovercode.com">Shane Curcuru</a>.
+email: asfl@shanecurcuru.org
 twitter_username: shanecurcuru
 github_username:  ShaneCurcuru
-permalink: none
 
 # Layout settings
 header_type: default  # values [ drawer, default ]
 post_type: default    # values [ highlight, default ]
 pagination_type: default  # values [ ops, default ]
 paginate: 6
+permalink: none
+mdlcolors: deep_orange-deep_purple
 
 # Custom UI settings
 sister_sites:
