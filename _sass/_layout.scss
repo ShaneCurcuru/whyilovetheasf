@@ -14,13 +14,12 @@
 .mdl-card__title {
   color: #fff;
   height: 176px;
-  background: url('/img/stone-1056314_1920.jpg') center / cover;
+  background: url('/img/mdl-card__title.jpg') center / cover;
 }
 
-.shaneusesmall .mdl-card__title-small {
-  padding: 2 !important;
+.mdl-card-small .mdl-card__title {
   height: 100px !important;
-  background: url('/img/stone-1056314_1920-sm.jpg') center / cover !important;
+  background: url('/img/mdl-card__title-small.jpg') center / cover !important;
 }
 
 .mdl-card__menu {

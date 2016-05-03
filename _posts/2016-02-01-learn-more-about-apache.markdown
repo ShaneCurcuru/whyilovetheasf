@@ -26,7 +26,7 @@ excerpt: A permuted index of topics at Apache
 {% capture getcodecard %}
 All project code at Apache is publicly available and in <a href="http://www.apache.org/dev/#version-control">Subversion or Git repositories</a>.
 {% endcapture %}
-{% include card.html title="Get Code" content=getcodecard %}
+{% include card.html title="Get Code" content=getcodecard size="mdl-card-small"%}
 
 {% include card.html title="Find Technology" content='<a href="https://projects.apache.org/">List all 170+ Apache projects</a> and read the <a href="http://www.apache.org/dev/">developer information portal</a>.' %}
 
