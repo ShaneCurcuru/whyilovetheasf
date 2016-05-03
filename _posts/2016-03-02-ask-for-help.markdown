@@ -10,16 +10,20 @@ image: img/coffee-beans-1248394.jpg
 
 More questions?  Don't just ask me - Apache is all about community,
 and the place for community at Apache is [Apache Community Development](http://community.apache.org/)!
-<br/>
 
-{% include card.html title="Undone" content="This card is inprogress." textcolor="mdl-color-text--red-800" %}
-<div class="mdl-cell mdl-cell--3-col mdl-card mdl-shadow--4dp mdl-color-text--grey-800">
-  <div class="mdl-card__title"><h4 class="mdl-card__title-text">People</h4></div>
-  <div class="mdl-card__supporting-text"><a href="http://home.apache.org/">Apache committer directory and phonebook.</a></div>
-</div>
+<div class="mdl-grid">
 
-{% capture getcodecard %}
-All project code at Apache is publicly available and in <a href="http://www.apache.org/dev/#version-control">Subversion or Git repositories</a>.
+{% include card.html title="Find Technology" content='<a href="https://projects.apache.org/">List all 170+ Apache projects</a> and read the <a href="http://www.apache.org/dev/">developer information portal</a>.' size="mdl-card-small" %}
+
+{% capture contactcard %}
+Everything at Apache happens on <a href="http://www.apache.org/foundation/mailinglists.html">our mailing lists</a>.
+Find the <a href="http://www.apache.org/dev/contrib-email-tips.html#rightlist">right list to use</a>.
+<strong>Technical</strong> questions go to a project's dev@ list. Or, <a href="http://www.apache.org/foundation/contact">ask cross-project questions</a>.
+<a href="http://mail-archives.apache.org/mod_mbox/">Read the public list archives</a>.
 {% endcapture %}
-{% include card.html title="Get Code" content=getcodecard %}
-{% include card.html title="Find Technology" content='<a href="https://projects.apache.org/">List all 170+ Apache projects</a> and read the <a href="http://www.apache.org/dev/">developer information portal</a>.' %}
+{% include card.html title="How To Contact Anyone" content=contactcard size="mdl-card-small" %}
+
+
+{% include card.html title="Your Ideas" content='Have another useful explanation or link? <a href="https://github.com/ShaneCurcuru/whyilovetheasf">PR me on github</a>!' size="mdl-card-small" %}
+
+</div><!-- first mdl-grid -->

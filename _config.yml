@@ -27,16 +27,17 @@ permalink: none
 mdlcolors: deep_orange-deep_purple
 
 # Custom UI settings
+default_image: http://whyilovetheasf.com/img/mdl-layout__drawer-avatar.png
 sister_sites:
   site1:
     name: Community Over Code
-    link: communityovercode.com
+    link: //communityovercode.com
   site2:
     name: What Is Hadoop?
-    link: hadoop.biz
+    link: //hadoop.biz
   site3:
     name: Punderings
-    link: shane.curcuru.name/blog/
+    link: //shane.curcuru.name/blog/
 
 # Build settings
 markdown: kramdown

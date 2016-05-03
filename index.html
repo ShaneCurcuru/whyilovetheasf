@@ -42,7 +42,7 @@ layout: default
     {% for post in site.posts %}
 
     <div class="mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-desktop mdl-cell--4-col-tablet  mdl-cell--12-col-phone .mdl-cell--top">
-      <div class="mdl-card__title" {% if post.image %} style="background: url('{{ post.image }}') center/cover;" {% endif %}>
+      <div class="mdl-card__title" {% if post.image %} style="background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)), url('{{ post.image }}') center/cover;" {% endif %}>
         <h2 class="mdl-card__title-text mdl-typography--title-color-contrast">{{ post.title }}</h2>
       </div>
       <div class="mdl-card__supporting-text">
@@ -52,7 +52,7 @@ layout: default
         <i class="material-icons">keyboard_arrow_right</i>
       </button>
       <div class="mdl-card__actions mdl-card--border">
-        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="{{ post.url | prepend: site.baseurl }}">
+        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="{{ post.url | prepend: site.url }}">
           {{ post.categories }}
         </a>
       </div>

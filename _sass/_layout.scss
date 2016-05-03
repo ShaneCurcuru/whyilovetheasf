@@ -14,12 +14,12 @@
 .mdl-card__title {
   color: #fff;
   height: 176px;
-  background: url('/img/mdl-card__title.jpg') center / cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url('/img/mdl-card__title.jpg') center / cover;
 }
 
 .mdl-card-small .mdl-card__title {
   height: 100px !important;
-  background: url('/img/mdl-card__title-small.jpg') center / cover !important;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url('/img/mdl-card__title-small.jpg') center / cover !important;
 }
 
 .mdl-card__menu {
@@ -70,7 +70,7 @@
     -ms-flex-pack: center;
     justify-content: center;
     min-height: 200px;
-    background: url('/img/mdl-card__title.jpg') center / cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url('/img/mdl-card__title.jpg') center / cover;
   }
 
   button {
