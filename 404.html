@@ -11,24 +11,44 @@ layout: default
         <h4 class="mdl-card__title-text mdl-typography--title-color-contrast">Ooops! That's a 404!</h4>
       </div>
       <div class="mdl-card__supporting-text">
-        <span class="mdl-typography--body-2-color-contrast mdl-color-text--red-900">404 Not Found</span>
+        <span class="mdl-typography--body-2-color-contrast mdl-color-text--red-900">404 Not Found</span><br/>
         <span class="mdl-typography--body-2-color-contrast">Sorry, the URL you attempted to access wasn't found. Perhaps searching this site would be good?</span>
       </div>
       <div class="mdl-card__actions">
         <div class="mdl-cell--hide-phone mdl-cell--hide-tablet">
-          <a href="{{ "/" | prepend: site.url }}">
+          <form class="devsite-search-form" action="/search" method="GET">
             <button id="share_btn" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised mdl-button--fab mdl-button--primary">
-              <i class="material-icons">home</i>
+                <label class="mdl-button mdl-js-button mdl-button--icon" for="search-field404">
+                  <i class="material-icons">search</i>
+                </label>
+                <div class="mdl-textfield__expandable-holder">
+                  <input class="mdl-textfield__input" type="text" name="q" id="search-field404" />
+                </div>
+                <script src='//www.google.com/jsapi' type='text/javascript'></script>
+                <script type='text/javascript'>
+                google.load('search', '1', {language: 'en', style: google.loader.themes.SHINY});
+                google.setOnLoadCallback(function() {
+                  var customSearchOptions = {};
+                  var orderByOptions = {};
+                  orderByOptions['keys'] = [{label: 'Relevance', key: ''} , {label: 'Date', key: 'date'}];
+                  customSearchOptions['enableOrderBy'] = true;
+                  customSearchOptions['orderByOptions'] = orderByOptions;
+                  var customSearchControl =   new google.search.CustomSearchControl('{{ site.google_customsearch }}', customSearchOptions);
+                  customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
+                  var options = new google.search.DrawOptions();
+                  options.enableSearchboxOnly('https://whyilovetheasf.com/search.html', 'q');
+                  options.setAutoComplete(true);
+                  customSearchControl.draw('search-field404', options);
+                }, true);
+              </script>
+
             </button>
-          </a>
+          </form>
         </div>
       </div>
     </div>
 
     <div class="mdl-cell mdl-cell--10-col mdl-card mdl-shadow--4dp">
-      <div class="mdl-card__title">
-        <h4 class="mdl-card__title-text mdl-typography--title-color-contrast">Search</h4>
-      </div>
       <div class="mdl-card__supporting-text">
         <form class="devsite-search-form" action="/search" method="GET">
           <label class="mdl-button mdl-js-button mdl-button--icon" for="search-field">
