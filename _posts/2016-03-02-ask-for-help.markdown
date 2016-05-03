@@ -23,7 +23,9 @@ Find the <a href="http://www.apache.org/dev/contrib-email-tips.html#rightlist">r
 {% endcapture %}
 {% include card.html title="How To Contact Anyone" content=contactcard size="mdl-card-small" %}
 
-
-{% include card.html title="Your Ideas" content='Have another useful explanation or link? <a href="{{ site.github_forkurl }}">PR me on github</a>!' size="mdl-card-small" %}
+{% capture yourcard %}
+Have another useful explanation or link? <a href="{{ site.github_forkurl }}">PR me on github</a>!
+{% endcapture %}
+{% include card.html title="Your Ideas" content=yourcard size="mdl-card-small" %}
 
 </div><!-- first mdl-grid -->
