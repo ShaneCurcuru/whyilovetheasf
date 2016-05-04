@@ -40,10 +40,10 @@ permalink: /about/
           My full CV/profile is on <a href="https://www.linkedin.com/in/shanecurcuru">LinkedIn</a>.
         </p>
         <p class="mdl-typography--body-2-color-contrast">
-          Huh.  It's too late tonight to figure out what's wrong with the image MDL CSS cell above.
-          Clearly, I should get style=background-image url to work, instead of
-          the plain img tag (which leaves the contrast color background, and doesn't resize quite right...)
-          Zzzzzz...
+          As with the internet itself, this site is a work in progress.  It's
+          both a showcase of my feelings, a place for me to put useful
+          content at stable URLs, and is a way to finally learn how
+          CSS actually works.  Well, at least as well as anyone does! 
         </p>
       </div>
     </div>
