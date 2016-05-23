@@ -35,3 +35,7 @@ geeks tried to devise a way to do analyst and press relations themselves,
 without paying for any experts.
 
 The story from PRC to VP, Brand is a long one, which will be told soon.
+
+You can also 
+<a href="https://twitter.com/ShaneCurcuru" class="twitter-follow-button" data-show-count="false" data-dnt="true">Follow @ShaneCurcuru</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script> 
+on Twitter.
