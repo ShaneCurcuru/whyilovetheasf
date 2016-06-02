@@ -21,3 +21,7 @@ and communities and technologies; and thie history - it's really
 the people that keeps me volunteering at Apache.
 
 And giving goofy [Lighting Talks at ApacheCon](https://www.youtube.com/watch?v=fQAAzpk4oQ4).  (more to come!)
+
+I've met a lot of great people at ApacheCon throughout the years
+(since 2001), and hope to see people at <a href="http://apachecon.com/">ApacheCon/BigData Europe</a>, coming
+to Seville, Spain this 14-18 November 2016!

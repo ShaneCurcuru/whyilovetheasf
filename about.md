@@ -15,7 +15,7 @@ permalink: /about/
         <div class="mdl-card__supporting-text">
           This is Shane's website about Why I Love The ASF.  It is an unofficial resource with useful pointers and humorous stories about how Apache really works, and is a companion to my essay-focused
           <a href="http://communityovercode.com/">Community Over Code</a> blog.
-          As well as a variety of other sites.
+          For more great Apache pointers, see the <a href="http://community.apache.org/">Community Development project</a>.
         </div>
       </div>
     </div>
@@ -43,7 +43,7 @@ permalink: /about/
           As with the internet itself, this site is a work in progress.  It's
           both a showcase of my feelings, a place for me to put useful
           content at stable URLs, and is a way to finally learn how
-          CSS actually works.  Well, at least as well as anyone does! 
+          CSS actually works.  Well, at least as well as anyone does!
         </p>
       </div>
     </div>
