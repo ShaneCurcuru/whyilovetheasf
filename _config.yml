@@ -40,5 +40,13 @@ sister_sites:
     name: Punderings
     link: //shane.curcuru.name/blog/
 
+footer_links:
+  link1:
+    name: About This Site
+    link: //whyilovetheasf.com/about
+  link2:
+    name: Impress / Legal / Trademarks
+    link: //whyilovetheasf.com/colophon
+
 # Build settings
 markdown: kramdown

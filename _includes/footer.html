@@ -55,14 +55,14 @@
       </ul>
     </div>
 
-
   </div>
 
   <div class="mdl-mega-footer--bottom-section">
     <div class="mdl-logo">{{ site.title }}</div>
     <ul class="mdl-mega-footer--link-list">
-      <li><a href="{{ site.url }}/about">About This Site</a></li>
-      <li><a href="{{ site.url }}/colophon">Impress / Legal / Trademarks</a></li>
+      {% for fitem in site.footer_links %}
+        <li><a href="http://{{ fitem[1].link }}">{{ fitem[1].name }}</a></li>
+      {% endfor %}
     </ul>
   </div>
 
