@@ -50,3 +50,10 @@ footer_links:
 
 # Build settings
 markdown: kramdown
+
+# Collections of subpages
+collections:
+  lightning:
+    output: true
+    excerpt: "Shane's Lightning Talks"
+    permalink: /:collection/:path/
