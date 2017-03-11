@@ -3,7 +3,7 @@ layout: default
 title:  "About Apache: Starting Points For Everything"
 date:   2016-02-01 11:22:33
 author: Shane Curcuru
-categories: info
+categories: Info
 image:  img/heart-1050338_1920.jpg
 excerpt: A permuted index of topics at Apache
 ---
@@ -45,6 +45,8 @@ Find the <a href="http://www.apache.org/dev/contrib-email-tips.html#rightlist">r
 {% include card.html title="Corporate Governance" content='The ASF is a <a href="http://www.apache.org/foundation/records/">501C3 non-profit public charity</a>, that relies on <a href="http://www.apache.org/foundation/contributing">individual donors</a> and <a href="http://www.apache.org/foundation/sponsorship">sponsors</a> for <a href="https://blogs.apache.org/foundation/entry/the_apache_software_foundation_asf">funding and budgets</a>.  Members elect a <a href="http://www.apache.org/foundation/">Board of Directors</a> that appoints Officers. Read our <a href="http://www.apache.org/foundation/governance/">governance overview and org chart</a>.' size="mdl-card-small" %}
 
 {% include card.html title="Infrastructure Team &amp; Tools" content='The crack <a href="http://www.apache.org/dev/#infrastructure">Apache Infrastructure team</a> runs everything, and protects our servers from rogue gnomes.' size="mdl-card-small" %}
+
+{% include card.html title="The Apache WAy" content='Learn about <a href="http://theapacheway.com/">The Apache Way</a>, the community-led consensus techniques that make Apache projects so efficient and long-lived.' size="mdl-card-small" %}
 
 {% capture yourcard %}
 Have another useful explanation or link? <a href="{{ site.github_forkurl }}">PR me on github</a>!

@@ -3,7 +3,7 @@ layout: post
 title:  "ApacheCon Lightning Talks"
 date:   2016-02-01 11:22:33
 uthor: Shane Curcuru
-categories: apachecon
+categories: ApacheCon
 image: img/wood-850085_1920.jpg
 excerpt: Shane has given a lot of Lightning Talks
 ---

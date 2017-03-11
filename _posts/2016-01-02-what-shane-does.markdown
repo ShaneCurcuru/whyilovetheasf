@@ -3,7 +3,7 @@ layout: post
 title:  "What Shane Does At Apache"
 date:   2016-01-02 11:22:33
 author: Shane Curcuru
-categories: Shane
+categories: AboutMe
 image: img/heart-318571_1920.jpg
 excerpt: My Apache Resume - Director, VP, Documentation
 ---
@@ -34,7 +34,7 @@ in the early days of the Public Relations Committee (PRC), where a bunch of
 geeks tried to devise a way to do analyst and press relations themselves,
 without paying for any experts.
 
-The story from PRC to VP, Brand is a long one, which will be told soon.
+The story from PRC to VP, Brand and spending the past few years on the board is a long one, which will be told soon.
 
 You can also 
 <a href="https://twitter.com/ShaneCurcuru" class="twitter-follow-button" data-show-count="false" data-dnt="true">Follow @ShaneCurcuru</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script> 

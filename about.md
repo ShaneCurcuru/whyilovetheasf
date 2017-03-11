@@ -13,7 +13,7 @@ permalink: /about/
           <h4 class="mdl-card__title-text">Do you love Apache?</h4>
         </div>
         <div class="mdl-card__supporting-text">
-          This is Shane's website about Why I Love The ASF.  It is an unofficial resource with useful pointers and humorous stories about how Apache really works, and is a companion to my essay-focused
+          This is a website by <span itemscope itemtype="http://schema.org/Person" itemprop="author"><span itemprop="name">Shane Curcuru</span></span> about Why I Love The ASF.  It is an unofficial resource with useful pointers and humorous stories about how Apache really works, and is a companion to my essay-focused
           <a href="http://communityovercode.com/">Community Over Code</a> blog.
           For more great Apache pointers, see the <a href="http://community.apache.org/">Community Development project</a>.
         </div>
@@ -42,8 +42,7 @@ permalink: /about/
         <p class="mdl-typography--body-2-color-contrast">
           As with the internet itself, this site is a work in progress.  It's
           both a showcase of my feelings, a place for me to put useful
-          content at stable URLs, and is a way to finally learn how
-          CSS actually works.  Well, at least as well as anyone does!
+          content at stable URLs, and is a way to finally tweak CSS to do what I want.
         </p>
       </div>
     </div>

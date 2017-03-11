@@ -2,7 +2,7 @@
 layout: post
 title:  "Where Do I Ask For Help Again?"
 date:   2016-03-01 11:22:33
-categories: info
+categories: Info
 author: Shane Curcuru
 excerpt: No, really, who can help me?
 image: img/coffee-beans-1248394.jpg
