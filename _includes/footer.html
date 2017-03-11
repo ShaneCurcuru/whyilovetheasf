@@ -42,7 +42,7 @@
         </li>
       {% endif %}
       {% for option in site.sister_sites %}
-        <li><a href="http://{{ option[1].link }}">{{ option[1].name }}</a></li>
+        <li><a href="{{ option[1].link }}">{{ option[1].name }}</a></li>
       {% endfor %}
       </ul>
     </div>
