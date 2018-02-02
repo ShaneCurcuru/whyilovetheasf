@@ -30,3 +30,5 @@ For use this in the [_config.yml](https://github.com/gdg-managua/jekyll-mdl/blob
 Licensed under the Apache 2.0 license.
 
 Forked from jekyll-mdl.
+
+Copyright © [Shane Curcuru](http://shanecurcuru.org/) 2017-2018 | A [Punderthings℠ Production](http://punderthings.com/) | Licensed: [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0.html)

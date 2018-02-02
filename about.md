@@ -36,13 +36,14 @@ permalink: /about/
     <div class="mdl-cell mdl-card mdl-cell--10-col">
       <div class="mdl-card__supporting-text">
         <p>
-          For legal, impress, or trademark details please see the <a href="/colophon">Colophon</a>.
-          My full CV/profile is on <a href="https://www.linkedin.com/in/shanecurcuru">LinkedIn</a>.
+        Shane is founder of <a href="http://punderthings.com/">Punderthings℠ LLC consultancy</a>, helping organizations find better ways to engage with the critical open source projects that power modern technology and business.  He blogs and tweets about open source governance and trademark issues, and has <a href="http://ShaneSlides.com/">spoken at major technology conferences</a> like ApacheCon, OSCON, All Things Open, Community Leadership Summit, and Ignite.
+
+        Shane Curcuru serves as VP Brand Management for the ASF, and wrote the <a href="https://www.apache.org/foundation/marks/resources">trademark and branding policies that cover all 200+ Apache® projects</a>, including assisting projects with defining and policing their trademarks, as well as negoitating agreements with various software vendors using Apache software brands.  Shane is serving a seventh term as an elected Director of the ASF, providing governance oversight, community mentoring, and fiscal review for all Apache projects.
+
+        Otherwise, Shane is: a father and husband, a BMW driver and punny guy. Oh, and <a href="https://www.instagram.com/shanecurcuru/">we have cats</a>. Follow <a href="https://twitter.com/shanecurcuru">@ShaneCurcuru</a> and read about <a href="http://CommunityOverCode.com">open source communities</a> and see my <a href="http://ChooseAFoundation.com">FOSS Foundation directory</a>.
         </p>
         <p class="mdl-typography--body-2-color-contrast">
-          As with the internet itself, this site is a work in progress.  It's
-          both a showcase of my feelings, a place for me to put useful
-          content at stable URLs, and is a way to finally tweak CSS to do what I want.
+          For legal, impress, or trademark details please see the <a href="/colophon">Colophon</a>.
         </p>
       </div>
     </div>
