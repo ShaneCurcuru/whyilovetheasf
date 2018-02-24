@@ -6,7 +6,7 @@ permalink: /colophon/
 
 ### CREDITS / NOTICE
 
-Original content &copy; 2016 [Shane Curcuru](http://shane.curcuru.name/), Licensed under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html).
+Original content &copy; 2016-2018 [Shane Curcuru](http://shane.curcuru.name/), Licensed under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html).
 
 Website structure, layout, graphics:
 
@@ -24,7 +24,7 @@ Hosted by the convenient [GitHub Pages](https://pages.github.com/).
 
 Written with the [Atom.io](https://atom.io/) editor on a Mac.
 
-Powered by caffeine from <a href="http://www.peets.com/" target="_blank">Peet's Coffee and Tea</a>.
+Powered by caffeine from <a href="http://www.whyilovepeets.com/" target="_blank">Peet's Coffee and Tea</a>.
 
 ### TRADEMARKS
 

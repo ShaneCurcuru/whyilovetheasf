@@ -37,10 +37,12 @@ permalink: /about/
       <div class="mdl-card__supporting-text">
         <p>
         Shane is founder of <a href="http://punderthings.com/">Punderthings℠ LLC consultancy</a>, helping organizations find better ways to engage with the critical open source projects that power modern technology and business.  He blogs and tweets about open source governance and trademark issues, and has <a href="http://ShaneSlides.com/">spoken at major technology conferences</a> like ApacheCon, OSCON, All Things Open, Community Leadership Summit, and Ignite.
-
-        Shane Curcuru serves as VP Brand Management for the ASF, and wrote the <a href="https://www.apache.org/foundation/marks/resources">trademark and branding policies that cover all 200+ Apache® projects</a>, including assisting projects with defining and policing their trademarks, as well as negoitating agreements with various software vendors using Apache software brands.  Shane is serving a seventh term as an elected Director of the ASF, providing governance oversight, community mentoring, and fiscal review for all Apache projects.
-
-        Otherwise, Shane is: a father and husband, a BMW driver and punny guy. Oh, and <a href="https://www.instagram.com/shanecurcuru/">we have cats</a>. Follow <a href="https://twitter.com/shanecurcuru">@ShaneCurcuru</a> and read about <a href="http://CommunityOverCode.com">open source communities</a> and see my <a href="http://ChooseAFoundation.com">FOSS Foundation directory</a>.
+        </p>
+        <p>
+        Shane is serving a seventh term as an elected Director of the ASF, providing governance oversight, community mentoring, and fiscal review for all Apache projects.  Shane also served as Vice President, Brand Management for the ASF for 8 years, and wrote the <a href="https://www.apache.org/foundation/marks/resources">trademark and branding policies that cover all 200+ Apache® projects</a>, including assisting projects with defining and policing their trademarks, as well as negoitating agreements with various software vendors using Apache software brands.  
+        </p>
+        <p>
+        Otherwise, Shane is: a father and husband, a BMW driver and punny guy. Oh, and <a href="https://www.instagram.com/shanecurcuru/">we have cats</a>. Follow <a href="https://twitter.com/shanecurcuru">@ShaneCurcuru</a> and read about <a href="http://CommunityOverCode.com/">open source communities</a> and see my <a href="http://ChooseAFoundation.com/">FOSS Foundation directory</a>.
         </p>
         <p class="mdl-typography--body-2-color-contrast">
           For legal, impress, or trademark details please see the <a href="/colophon">Colophon</a>.
