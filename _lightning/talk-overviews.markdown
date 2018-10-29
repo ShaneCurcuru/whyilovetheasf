@@ -246,3 +246,92 @@ Rich Bowen took up the mantle of giving a why I love the ASF LightningTalk this 
 
 See the [slides the video over on ShaneSlides](http://shaneslides.com/2017/05/Five-Things-I-Couldnt-Imagine/).
 
+
+# 2018 Five Things You Might Not Know About ApacheCon
+# ApacheCon NA 2018 - Montréal
+
+## 0. Does Apache Have A URL Shortening Service?
+
+Yes! Creating permanent, ASF hosted short links is open to all committers:
+
+https://s.apache.org/
+
+Why is this important?  Because the ASF will be here in 50 years, so our shortened URLs will still be here for the public good.
+
+## 1. What is a PMC?
+
+PMC = Project Managment Committee
+
+https://s.apache.org/about-pmc
+
+Apache PMCs are the leadership team helping to drive their Apache project.
+
+Imagine a giant org chart.  The ASF Board is at the top, and then all 200 independent Apache top level projects have a dotted line report to the board - but the reporting is only about legal, community, and branding issues - NOT about technical issues.  One of the hardest things to understand is that the ASF - the Foundation - does not provide technical direction or even suggestions for our projects.  It's up to each PMC to independently decide what's right for their community and choose their direction.
+
+## 2. How Do I Become An Apache Member / Get A Seat On The Board?
+
+Use the Apache Way to serve the public good.
+
+https://s.apache.org/about-independence
+
+You can't pay to get a seat on the board, unlike some other foundations.  If you're asking to be made a member, that's the wrong way to go about it.
+
+New members are nominated and elected on merit by the existing membership.  It's not about where you work, it's not about how much code you've contributed, and it's never about what you've donated or funded.  It's always about: how have you shown the values of The Apache Way by helping drive forward and evangelize multiple Apache projects?
+
+This level of independence ensures the ASF board can't be subverted.  The board ensures the strategic independence of Apache projects from any vendor or consortia.
+
+## 3. Well, What Is An Apache Member?
+
+It's probably not what you think.
+
+https://s.apache.org/about-members
+
+On one hand, it's pretty boring.  Members are each a single shareholder of the corporation, and get a single vote for our annual board election.  On the other hand, it's a huge honor to be recognized for your merit in helping multiple Apache communities succeed and grow.
+
+Members don't get any direct privledges on Apache projects; you can't just show up and commit code.  But Members do have visibility into projects: as shareholders, they help provide the oversignt of both foundation business and to a degree all project business.  It doesn't mean they can change the technical direction of any project; but it does mean they can help mentor our many communities.
+
+## 4. How Can I Be Successful At Apache?
+
+https://s.apache.org/about-success
+
+Sometime we need instructions for what steps to take, or what process we need to follow to accomplish a goal.  But sometimes we need help figuring out what questions to ask, or we need to understand the why behind the process.  Sometimes, reading the documentation won't help us - but hearing a story from someone else in our situation will help us make sense of it all.
+
+A number of ASF Members write the Success at Apache blog series, essays about how they've found success in their work, their community, or just in their life when working with Apache projects.  These are stories - human explanations of what it means to be part of an Apache project and what you can get out of it.  Check them out.
+
+## 5. How Do I Get Infra Things For My Project?
+
+You have to **ask** for them.  Preferably clearly and politely.
+
+https://s.apache.org/about-infra
+
+Projects commonly feel like they don't know the right way to ask for new infrastructure resources that the ASF provides.  It's actually pretty simple - just ask.  It's super helpful to ask in the right forum, to make your question clear, and to be polite.  The crack Apache Infra team are paid staff, their job is to help our projects, and they're all friendly like ponies.
+
+Also - when in doubt asking infra for something, file an INFRA JIRA issue.  They like tickets.
+
+Oh, and Apache Infra is looking to hire a new staffer!  If you like Ponies, fight the good fight against gnomes gumming up the works, then apply to get paid to work for Apache!
+
+# How Many ApacheCons has Shane Attended?
+
+ApacheCon NA 2018 is being held in Montréal, CA - my 23rd ApacheCon!
+ApacheCon NA 2017 was held in Miami, FL.
+ApacheCon EU 2016 was held in Seville, Spain.
+ApacheCon NA 2016 was held in Vancouver, BC.
+ApacheCon EU 2015 was held in Budapest, Hungary.
+ApacheCon NA 2015 was held in Austin, TX.
+ApacheCon EU 2014 was held in Budapest, Hungary.
+ApacheCon NA 2014 was held in Denver, CO.
+ApacheCon NA 2013 was held in Portland, OR.
+ApacheCon NA 2011 was held in Vancouver, BC.
+ApacheCon NA 2010 was held in Atlanta, GA.
+ApacheCon US 2009 was held in Oakland, CA.
+ApacheCon EU 2009 was held in Amsterdam, Netherlands.
+ApacheCon US 2008 was held in New Orleans, LA.
+ApacheCon EU 2008 was held in Amsterdam, Netherlands.
+ApacheCon US 2007 was held in Atlanta, GA.
+ApacheCon EU 2007 was held in Amsterdam, Netherlands.
+ApacheCon US 2006 was held in Austin, TX.
+ApacheCon US 2005 was held in San Diego, CA.
+ApacheCon US 2004 was held in Las Vegas, NV.
+ApacheCon US 2003 was held in Las Vegas, NV.
+ApacheCon US 2002 was held in Las Vegas, NV.
+ApacheCon US 2001 was held in Santa Clara, CA.
